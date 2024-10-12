@@ -13,6 +13,7 @@
 
  :root {
     font-size: 62.5%;
+    --color-bg:#ff0000;
     --primary-color: #0a0a0a;
     --secondary-color: #a51a1a;
     --text-color: #fff;
@@ -21,17 +22,10 @@
  body, button, input, label, h1, h2, h3, h5, h6, p, span{
     font-family: 'Roboto', sans-serif;
   }
-
-header {
-    background-color: #df1212;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .menu {
     display: flex;
+    justify-content: space-around;
+    background-color: var(--color-bg);
     align-items: center;
 }
 
@@ -44,6 +38,7 @@ header {
     padding: 1rem 2rem;
     text-decoration: none;
     transition: background-color 0.2s ease-in-out;
+    
 }
 
 h1 {
@@ -70,12 +65,7 @@ h4 {
     color: var(--secondary-color);
 }
 
-.menu a {
-    color: var(--text-color);
-    padding: 1rem 2rem;
-    text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
-}
+
 
 p {
     font-size: 1.6rem;
