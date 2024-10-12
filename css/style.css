@@ -17,6 +17,7 @@
     --primary-color: #0a0a0a;
     --secondary-color: #a51a1a;
     --text-color: #fff;
+    --color-bd: #363131;
  }
 
  body, button, input, label, h1, h2, h3, h5, h6, p, span{
@@ -129,6 +130,60 @@ footer {
     gap: 1.5rem;
     text-align: center;
     margin-top: 10rem;
+}
+
+.contato {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.contato .contato__container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.faleConosco {
+    display: flex;
+    margin-left: 18rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.faleConosco form {
+    display: flex;
+    flex-direction: column;
+}
+
+.faleConosco label {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.faleConosco input[type="email"],
+.faleConosco input[type="text"],
+.faleConosco textarea {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--color-bd);
+    width: 100rem;
+}
+
+.faleConosco button {
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: 0;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.faleConosco button:hover {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 footer h4 {
