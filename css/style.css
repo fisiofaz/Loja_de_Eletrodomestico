@@ -27,6 +27,8 @@
     justify-content: space-around;
     background-color: var(--color-bg);
     align-items: center;
+    margin-bottom: 10rem;
+    width: 100%;
 }
 
 .menu td {
@@ -119,8 +121,12 @@ span {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: var(--color-bg);
-    padding: 2rem;
+    gap: 1.5rem;
     text-align: center;
     margin-top: 10rem;
 }
