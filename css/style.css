@@ -132,6 +132,14 @@ footer {
     margin-top: 10rem;
 }
 
+.lojas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
 .contato {
     display: flex;
     justify-content:space-around;
